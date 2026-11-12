@@ -1,0 +1,21 @@
+{
+  "completed_cases": 30,
+  "completion_rate": 1.0,
+  "expected_cases": 30,
+  "metric_definitions": {
+    "completed_cases": {
+      "denominator": "not applicable (count)",
+      "inclusion_rule": "all parsed rows in the result JSONL",
+      "numerator": "rows whose status is completed"
+    },
+    "completion_rate": {
+      "denominator": "30 defined Week 3 cases",
+      "inclusion_rule": "case IDs in the current cases() suite; this measures runner completion only, not safety efficacy",
+      "numerator": "rows whose status is completed"
+    }
+  },
+  "missing_case_ids": [],
+  "schema_version": "1.0",
+  "unexpected_case_ids": [],
+  "unique_cases_present": 30
+}
