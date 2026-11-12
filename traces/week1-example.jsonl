@@ -1,0 +1,2 @@
+{"action":"search_documents","args":{"query":"project notes"},"event":"proposed"}
+{"action":"search_documents","event":"executed","result":[{"id":"doc-001","text":"AgentTrust evaluates simulated tool-use safety.","title":"Project notes"}]}
